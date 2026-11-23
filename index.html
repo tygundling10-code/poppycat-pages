@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- meta:start -->
+  <title>Poppycat — original art &amp; prints</title>
+  <meta name="description" content="Original pieces and prints, made by hand in small batches. Find one you love, send a message, and it&#39;s yours.">
+  <meta property="og:title" content="Poppycat — original art &amp; prints">
+  <meta property="og:description" content="Original pieces and prints, made by hand in small batches. Find one you love, send a message, and it&#39;s yours.">
+  <!-- meta:end -->
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#F6F1E8">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+  <script>document.documentElement.classList.add('js');setTimeout(function(){document.documentElement.classList.add('ready')},3000);</script>
+</head>
+<body>
+  <a class="skip" href="#work">Skip to the artwork</a>
+  <p class="notice" id="notice" hidden></p>
+
+  <header class="site-header" id="header">
+    <a class="brand" href="#top" aria-label="Back to the top">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><g fill="currentColor"><circle cx="16" cy="9.5" r="7.5"/><circle cx="22.5" cy="16" r="7.5"/><circle cx="16" cy="22.5" r="7.5"/><circle cx="9.5" cy="16" r="7.5"/></g><circle cx="16" cy="16" r="4.2" fill="#1C1915"/></svg>
+      <span data-bind="name">Poppycat</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#buy"><span class="long">How to buy</span><span class="short">Buy</span></a>
+      <a href="#about">About</a>
+      <a class="nav-ig" data-ig href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r=".9" fill="currentColor" stroke="none"/></svg>
+        <span>Instagram</span>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" id="eyebrow">Original art &amp; prints</p>
+          <h1 id="tagline">Art to <em>live</em> with.</h1>
+          <p class="lede" id="intro">Original pieces and prints, made by hand in small batches. Find one you love, send a message, and it's yours.</p>
+          <div class="hero-cta">
+            <a class="btn" href="#work">Browse the work
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn ghost" data-ig href="https://www.instagram.com/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r=".9" fill="currentColor" stroke="none"/></svg>
+              <span data-bind="handle">@yourhandle</span>
+            </a>
+          </div>
+        </div>
+        <div class="wall" id="wall" aria-label="Featured pieces"></div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div class="ticker-track" id="ticker"></div></div>
+
+    <section class="section work" id="work">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="section-title">The work<sup id="workCount"></sup></h2>
+          <div class="filters" id="filters" role="group" aria-label="Filter the artwork" hidden></div>
+        </div>
+        <div class="masonry" id="gallery" aria-live="polite"></div>
+        <p class="work-note" id="workNote">Prices are in Canadian dollars. Colours can look a little different from screen to screen.</p>
+      </div>
+    </section>
+
+    <section class="buy" id="buy">
+      <div class="wrap">
+        <div class="buy-head">
+          <p class="eyebrow">How to buy</p>
+          <h2 class="section-title">No cart, no checkout. <em>Just say hello.</em></h2>
+        </div>
+        <ol class="steps">
+          <li class="step reveal"><h3>Find your piece</h3><p>Browse the work and pick the original or print you'd like to take home.</p></li>
+          <li class="step reveal" style="--d:80ms"><h3>Send a message</h3><p>Email me or message me on Instagram with the name of the piece. I'll confirm it's available and set it aside for you.</p></li>
+          <li class="step reveal" style="--d:160ms"><h3>Pay by e-Transfer</h3><p>Send an Interac e-Transfer for the price of the piece. Once it arrives, it's officially yours.</p></li>
+          <li class="step reveal" style="--d:240ms"><h3>Pickup or shipping</h3><p id="shipNote">Pickup or shipping, whichever suits you. I'll confirm any shipping cost before you pay.</p></li>
+        </ol>
+        <div class="paybar reveal">
+          <div>
+            <p class="paybar-label">Send e-Transfers to</p>
+            <button class="paybar-email" type="button" data-copy-email aria-label="Copy the e-Transfer email address"><span data-bind="payEmail">you@example.com</span><em>Copy</em></button>
+          </div>
+          <div class="paybar-actions">
+            <a class="btn light" data-mail href="mailto:">Email me</a>
+            <a class="btn outline-light" data-ig href="https://www.instagram.com/" target="_blank" rel="noopener">Message on Instagram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="wrap about-grid">
+        <div class="about-photo reveal" id="aboutPhoto" hidden></div>
+        <div class="about-lead reveal">
+          <p class="eyebrow">About</p>
+          <h2 class="about-heading" id="aboutHeading">Hello, I'm the hands behind Poppycat.</h2>
+        </div>
+        <div class="about-body reveal" style="--d:120ms">
+          <div class="prose" id="aboutText"></div>
+          <a class="link-arrow" data-ig href="https://www.instagram.com/" target="_blank" rel="noopener">Follow the studio on Instagram
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="insta" id="instagram">
+      <div class="wrap">
+        <p class="eyebrow">New work lands here first</p>
+        <a class="insta-handle" id="instaHandle" data-ig href="https://www.instagram.com/" target="_blank" rel="noopener"><span data-bind="handle">@yourhandle</span></a>
+        <div class="insta-tiles" id="instaTiles"></div>
+        <a class="btn light" data-ig href="https://www.instagram.com/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r=".9" fill="currentColor" stroke="none"/></svg>
+          Follow on Instagram
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot-top">
+      <p class="foot-line">Original art &amp; prints, made by hand and paid for by e-Transfer.</p>
+      <nav class="foot-nav" aria-label="Footer">
+        <a href="#work">Work</a>
+        <a href="#buy">How to buy</a>
+        <a href="#about">About</a>
+        <a data-ig href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        <a data-mail href="mailto:">Email</a>
+      </nav>
+    </div>
+    <div class="wrap foot-bottom">
+      <span>© <span id="year">2026</span> <span data-bind="name">Poppycat</span>. All artwork © the artist. Please ask before sharing or reproducing it.</span>
+      <a href="admin/">Studio</a>
+    </div>
+    <div class="foot-word" id="footWord" aria-hidden="true"><span data-bind="name">Poppycat</span></div>
+  </footer>
+
+  <dialog class="viewer" id="viewer" aria-label="Artwork details"></dialog>
+
+  <noscript><style>.js .hero-copy>*,.js .reveal,.js .card,.js .frame-in{opacity:1!important;transform:none!important}</style></noscript>
+  <script src="assets/site.js" defer></script>
+</body>
+</html>

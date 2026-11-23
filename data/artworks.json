@@ -1,0 +1,164 @@
+{
+  "artworks": [
+    {
+      "id": "poppy-field",
+      "title": "Poppy Field",
+      "year": "2026",
+      "medium": "Gouache on cotton paper",
+      "size": "11 × 14 in",
+      "description": "Five poppies leaning into the afternoon. Painted in layered gouache, with the reds mixed by hand so no two petals match.",
+      "images": [{ "src": "art/samples/poppy-field.svg", "thumb": "art/samples/poppy-field.svg", "w": 1200, "h": 1600 }],
+      "color": "#F1E4CC",
+      "options": [
+        { "kind": "original", "label": "Original painting", "price": 420, "sold": false },
+        { "kind": "print", "label": "8 × 10 in print", "price": 35, "sold": false },
+        { "kind": "print", "label": "11 × 14 in print", "price": 55, "sold": false }
+      ],
+      "featured": true,
+      "instagram": "",
+      "sample": true,
+      "added": "2026-11-15"
+    },
+    {
+      "id": "night-garden",
+      "title": "Night Garden",
+      "year": "2026",
+      "medium": "Acrylic on wood panel",
+      "size": "12 × 18 in",
+      "description": "A quiet garden under a full moon. Deep teal, soft sage, and a few berries that refused to go to sleep.",
+      "images": [{ "src": "art/samples/night-garden.svg", "thumb": "art/samples/night-garden.svg", "w": 1200, "h": 1800 }],
+      "color": "#17262B",
+      "options": [
+        { "kind": "original", "label": "Original painting", "price": 460, "sold": false },
+        { "kind": "print", "label": "8 × 12 in print", "price": 40, "sold": false }
+      ],
+      "featured": false,
+      "instagram": "",
+      "sample": true,
+      "added": "2026-11-15"
+    },
+    {
+      "id": "golden-hour",
+      "title": "Golden Hour",
+      "year": "2025",
+      "medium": "Giclée print on matte paper",
+      "size": "18 × 12 in",
+      "description": "The last ten minutes of light over the hills, in six flat colours.",
+      "images": [{ "src": "art/samples/golden-hour.svg", "thumb": "art/samples/golden-hour.svg", "w": 1800, "h": 1200 }],
+      "color": "#E9A678",
+      "options": [
+        { "kind": "print", "label": "18 × 12 in print", "price": 65, "sold": false }
+      ],
+      "featured": false,
+      "instagram": "",
+      "sample": true,
+      "added": "2026-11-15"
+    },
+    {
+      "id": "sunday-cat",
+      "title": "Sunday Cat",
+      "year": "2026",
+      "medium": "Gouache on paper",
+      "size": "12 × 15 in",
+      "description": "Somebody's favourite window, somebody's favourite spot. Painted for everyone who has ever been ignored by a cat.",
+      "images": [{ "src": "art/samples/sunday-cat.svg", "thumb": "art/samples/sunday-cat.svg", "w": 1200, "h": 1500 }],
+      "color": "#DDA487",
+      "options": [
+        { "kind": "original", "label": "Original painting", "price": 380, "sold": true },
+        { "kind": "print", "label": "8 × 10 in print", "price": 35, "sold": false },
+        { "kind": "print", "label": "12 × 15 in print", "price": 60, "sold": false }
+      ],
+      "featured": true,
+      "instagram": "",
+      "sample": true,
+      "added": "2026-11-15"
+    },
+    {
+      "id": "shapes-in-conversation",
+      "title": "Shapes in Conversation",
+      "year": "2025",
+      "medium": "Giclée print on matte paper",
+      "size": "Two sizes",
+      "description": "Sixteen tiles, six colours, endless arguments. A bold one for a hallway or above a desk.",
+      "images": [{ "src": "art/samples/shapes-in-conversation.svg", "thumb": "art/samples/shapes-in-conversation.svg", "w": 1400, "h": 1400 }],
+      "color": "#EFE5D1",
+      "options": [
+        { "kind": "print", "label": "10 × 10 in print", "price": 40, "sold": false },
+        { "kind": "print", "label": "16 × 16 in print", "price": 85, "sold": false }
+      ],
+      "featured": false,
+      "instagram": "",
+      "sample": true,
+      "added": "2026-11-15"
+    },
+    {
+      "id": "tangerine-moon",
+      "title": "Tangerine Moon",
+      "year": "2026",
+      "medium": "Acrylic on canvas",
+      "size": "16 × 20 in",
+      "description": "A fat orange moon melting into still water.",
+      "images": [{ "src": "art/samples/tangerine-moon.svg", "thumb": "art/samples/tangerine-moon.svg", "w": 1200, "h": 1500 }],
+      "color": "#1F3A44",
+      "options": [
+        { "kind": "original", "label": "Original painting", "price": 350, "sold": false },
+        { "kind": "print", "label": "8 × 10 in print", "price": 35, "sold": false }
+      ],
+      "featured": true,
+      "instagram": "",
+      "sample": true,
+      "added": "2026-11-15"
+    },
+    {
+      "id": "arches",
+      "title": "Arches",
+      "year": "2025",
+      "medium": "Gouache on paper",
+      "size": "12 × 15 in",
+      "description": "Five arches in earthy tones. Simple, warm, and happy anywhere.",
+      "images": [{ "src": "art/samples/arches.svg", "thumb": "art/samples/arches.svg", "w": 1200, "h": 1500 }],
+      "color": "#F2E8D5",
+      "options": [
+        { "kind": "original", "label": "Original painting", "price": 290, "sold": false }
+      ],
+      "featured": false,
+      "instagram": "",
+      "sample": true,
+      "added": "2026-11-15"
+    },
+    {
+      "id": "contour",
+      "title": "Contour",
+      "year": "2025",
+      "medium": "Screen print, edition of 25",
+      "size": "12 × 12 in",
+      "description": "Hand-drawn contour lines around one small red island. A limited run of 25, signed and numbered.",
+      "images": [{ "src": "art/samples/contour.svg", "thumb": "art/samples/contour.svg", "w": 1400, "h": 1400 }],
+      "color": "#F3EBDD",
+      "options": [
+        { "kind": "print", "label": "12 × 12 in print", "price": 30, "sold": false }
+      ],
+      "featured": false,
+      "instagram": "",
+      "sample": true,
+      "added": "2026-11-15"
+    },
+    {
+      "id": "balance",
+      "title": "Balance",
+      "year": "2024",
+      "medium": "Acrylic on canvas",
+      "size": "18 × 24 in",
+      "description": "Five stones, one careful stack.",
+      "images": [{ "src": "art/samples/balance.svg", "thumb": "art/samples/balance.svg", "w": 1200, "h": 1600 }],
+      "color": "#EADFCB",
+      "options": [
+        { "kind": "original", "label": "Original painting", "price": 520, "sold": true }
+      ],
+      "featured": false,
+      "instagram": "",
+      "sample": true,
+      "added": "2026-11-15"
+    }
+  ]
+}
