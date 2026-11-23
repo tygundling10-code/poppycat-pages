@@ -1,4 +1,4 @@
-/* Poppycat — gallery, viewer and "how to buy" flow.
+/* Paintings by Poppy — gallery, viewer and "how to buy" flow.
    All content comes from data/site.json and data/artworks.json (edit them in the Studio). */
 (function () {
   'use strict';

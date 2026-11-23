@@ -1,4 +1,4 @@
-# Poppycat
+# Paintings by Poppy
 
 A gallery website for original art and prints. Visitors browse the work, pick a piece, message the artist (email or Instagram), and pay by Interac e-Transfer. There's no cart or card payments.
 
